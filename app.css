@@ -23,6 +23,13 @@ h1{
  color: #f5b34f;
 }
 
+h2{
+color: #f5b34f;
+font-size: 64px;
+}
+
+
+
 .right p{
  color: #f5b34f;
  line-height: 1.55;
@@ -30,14 +37,13 @@ h1{
 }
 
 nav{
- display: flex;
- gap: 10px;
- justify-content: center;
- width: 100%;
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 nav a{
-    color: #f5b34f;
+    color: #ff432e;
     font-size: 20px;
     font-family: 'TildaSans',Arial,sans-serif;
     line-height: 1.55;
@@ -46,11 +52,15 @@ nav a{
     border-radius: 12px;
     background-color: #ffffff;
     background-position: center center;
-    border-color: #f5b34f;
+    border-color: #ff432e;
     border-style: solid;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    padding: 10px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+   padding: 10px 0;
+    width: 130px;
+
 }
 
 .hero-wrapper{
@@ -63,6 +73,7 @@ nav a{
  display: flex;
  justify-content: center;
  padding: 20px;
+ color: #ff432e;
 }
 
 .left{
@@ -77,3 +88,35 @@ nav a{
  text-align: center;
 }
 
+
+@media screen and (max-width: 480px) {
+ .hero{
+  padding: 0 20px;
+ }
+ .hero-wrapper{
+  flex-direction: column;
+ }
+
+ .left{
+  width: 100%;
+ }
+
+ .right{
+  width: 100%;
+  margin-top: 100px;
+ }
+
+ nav{
+  grid-template-columns:  1fr 1fr;
+  
+ }
+
+ nav a{
+  width: 100%;
+  display: block;
+ }
+
+ h2{
+  font-size: 32px;
+ }
+}
