@@ -86,6 +86,12 @@ nav a {
   width: 130px;
 }
 
+nav a:hover{
+ background-color: #f5b34f;
+ color: #ffffff;
+ border-color:#ffffff ;
+}
+
 .hero-wrapper {
   display: flex;
   align-items: center;
