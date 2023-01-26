@@ -48,12 +48,14 @@ h1 {
   color: #f5b34f;
   font-size: 64px;
   text-align: center;
+  margin-top: -20px;
 }
 
 .right p {
   color: #f5b34f;
   line-height: 1.55;
   font-size: 18px;
+  font-family: 'Ubuntu';
 }
 
 nav {
@@ -104,8 +106,9 @@ nav a {
 
 .left-wrapper{
  background:url( https://thumb.tildacdn.com/tild6636-3930-4566-b739-643935623562/-/cover/303x294/center/center/-/format/webp/shiba_inu.png);
- height: 450px;
- width: 100%;
+ height: 400px;
+ width: 400px;
+ margin: 0 auto;
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -131,7 +134,7 @@ nav a {
 
   .right {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   nav {
@@ -153,8 +156,10 @@ nav a {
    background-size: contain;
   }
 
-  .left img{
-   
+  
+
+  h1{
+   margin-top: -35px;
   }
 }
 
