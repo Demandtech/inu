@@ -1,0 +1,79 @@
+*,::after,::before{
+ padding: 0;
+ margin: 0;
+}
+
+body{
+ background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(110,101,101,0.4)), to(rgba(10,0,9,0.4)) );
+    background-image: -webkit-linear-gradient(top, rgba(110,101,101,0.4), rgba(10,0,9,0.4));
+    background-image: linear-gradient(to bottom, rgba(110,101,101,0.4), rgba(10,0,9,0.4));
+    background: url(https://static.tildacdn.com/tild6562-6564-4534-a661-343834313364/ezgifcom-gif-maker_3.gif);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero{
+
+ display: flex;
+ flex-direction: column;
+ padding: 0 50px;
+}
+
+h1{
+ color: #f5b34f;
+}
+
+.right p{
+ color: #f5b34f;
+ line-height: 1.55;
+ font-size: 18px;
+}
+
+nav{
+ display: flex;
+ gap: 10px;
+ justify-content: center;
+ width: 100%;
+}
+
+nav a{
+    color: #f5b34f;
+    font-size: 20px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 900;
+    border-width: 2px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #f5b34f;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hero-wrapper{
+ display: flex;
+ align-items: center;
+ min-height:calc(100vh - 55px)
+}
+
+.footer{
+ display: flex;
+ justify-content: center;
+ padding: 20px;
+}
+
+.left{
+ width: 40%;
+ display: flex;
+ justify-content: center;
+}
+
+.right{
+ width: 60%;
+ justify-content: center;
+ text-align: center;
+}
+

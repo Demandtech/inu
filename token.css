@@ -1,0 +1,40 @@
+body {
+   background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.75)), to(rgba(255,174,0,0.65)) );
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(255,174,0,0.65));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(255,174,0,0.65)); 
+}
+main {
+  height: 100vh;
+  
+}
+
+main h1 {
+  color: #ffae00;
+    font-size: 64px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 900;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.tokenomic-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.token-card {
+  flex: 1;
+  background-color: #ffffff;
+  text-align: center;
+  color: #ffae00;
+}
+
+
+.header{
+ text-align: center;
+}
