@@ -126,6 +126,16 @@ nav a:hover{
   text-align: center;
 }
 
+.official{
+ color:#ff432e;
+}
+
+.token{
+ color: #ffffff;
+ display: block;
+ padding: 15px 0;
+}
+
 @media screen and (max-width: 480px) {
   .hero {
     padding: 20px;
